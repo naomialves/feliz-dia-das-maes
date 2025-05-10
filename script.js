@@ -23,7 +23,7 @@ function mudarImagem(direcao) {
 // Função para exibir uma mensagem dinâmica
 function exibirMensagem() {
     const mensagem = document.querySelector('.mensagem p');
-    mensagem.textContent = "Aproveite o momento e explore o desconhecido.";
+    mensagem.textContent = "Feliz dia das mães, te amo muito mãe! É incrível poder compartilhar minhas conquistas com essa mulher maravilhosa que você é.";
 }
 
 // Executa a função de exibir mensagem ao carregar a página
