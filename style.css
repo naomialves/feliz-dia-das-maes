@@ -54,8 +54,10 @@
   }
   
   .slides img {
-    width: 100%;
-    border-radius: 8px;
+    width: auto;
+    height: 300px; /* Altura fixa para manter proporção */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+    border-radius: 16px; /* Formato retangular arredondado */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   
