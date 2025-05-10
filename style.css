@@ -1,0 +1,116 @@
+/* Resetando os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #1e1e1e; /* Fundo escuro para o container */
+    color: #e0e0e0; /* Texto claro */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    color: #bb86fc; /* Cor harmoniosa para o título */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+    font-style: italic;
+    color: #a0a0a0; /* Subtítulo com tom mais suave */
+    margin-bottom: 20px;
+  }
+  
+  .carrossel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slides img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4a148c;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  .mensagem {
+    font-size: 20px;
+    color: #4e342e;
+    font-style: italic;
+    margin-top: 30px;
+    border-top: 2px solid #6a1b9a;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .audio-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.audio-section h2 {
+    font-size: 24px;
+    color: #bb86fc;
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra o Encanto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Feliz dia das mães</h1>
+      <p class="subtitulo">Para a pessoa que eu mais amo</p>
+    </header>
+
+    <!-- Carrossel de Imagens -->
+    <div class="carrossel">
+      <div class="slides">
+        <img src="imagem1.jpg" alt="Imagem 1">
+        <img src="imagem2.jpg" alt="Imagem 2">
+        <img src="imagem3.jpg" alt="Imagem 3">
+        <img src="imagem4.jpg" alt="Imagem 4"> <!-- Nova imagem -->
+        <img src="imagem5.jpg" alt="Imagem 5"> <!-- Nova imagem -->
+        <img src="imagem6.jpg" alt="Imagem 6"> <!-- Nova imagem -->
+      </div>
+      <button class="prev" onclick="mudarImagem(-1)">&#10094;</button>
+      <button class="next" onclick="mudarImagem(1)">&#10095;</button>
+    </div>
+
+    <!-- Texto pequeno -->
+    <div class="mensagem">
+      <p>"Mensagem dinâmica será exibida aqui."</p>
+    </div>
+
+    <div class="audio-section">
+      <h2>Uma Canção Especial</h2>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
